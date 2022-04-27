@@ -1,4 +1,5 @@
 package com.utils.resources;
 
-public interface IReadProperty {
+public interface IReadProperty<T> {
+    T read();
 }
